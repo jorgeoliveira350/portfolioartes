@@ -1,0 +1,32 @@
+header {
+    background: #4e4e4e;
+    border-bottom: 2px solid;
+}
+.imgicone {
+    display: block;
+}
+.caixa{
+    width: 90%;
+    max-width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav {
+    position:absolute;
+    top: 90px;
+    right: 0;
+}
+ nav li{
+     display: inline;
+     margin: 0 0 0 20px;
+ }
+ nav a{
+     text-transform: uppercase;
+     color: #000000;
+     font-weight: bold;
+     font-size: 20px;
+     text-decoration: none;
+ }
+ nav a:hover{
+     color:aliceblue;
+ }

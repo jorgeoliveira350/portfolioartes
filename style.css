@@ -33,6 +33,7 @@ nav {
  main {
     background: #a0a0a0;
     border-bottom: 2px solid;
+    height: calc(100vh - 250px);
 }
  h2 {
      font-weight: bold;
@@ -79,8 +80,4 @@ nav {
      }
  }
 
- @media (max-width: 630px){
-     nav a {
-
-     }
- }
+ @media (max-width: 630px)
