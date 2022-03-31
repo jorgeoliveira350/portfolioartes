@@ -30,3 +30,31 @@ nav {
  nav a:hover{
      color:aliceblue;
  }
+
+h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 16px;
+
+}
+
+ table {
+     margin: 25px;
+     width: 95vw;
+ }
+
+ thead {
+     font-weight: bold;
+     background:#4e4e4e;
+     color: white;
+ }
+
+ td, tr {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 1.2em;
+ }
+
+
+ 
