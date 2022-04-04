@@ -62,22 +62,4 @@ nav {
         top: 110px;
         right: 0;
      }
-     nav a {
-         font-size: 30px;
-     }
-     main h2 {
-         font-size: 35px;
-     }
-     main p {
-         font-size: 35px;
-     }
-     .imgicone {
-         width: 250px;
-         height: 250px;
-     }
-     footer p {
-         font-size: 25px;
-     }
  }
-
- @media (max-width: 630px)

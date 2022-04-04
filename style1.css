@@ -4,9 +4,15 @@ header {
 }
 .caixa{
     width: 940px;
+    max-width: 90%;
     position: relative;
     margin: 0 auto;
 }
+
+.imgicone {
+    display: block;
+}
+
 nav {
     position:absolute;
     top: 90px;

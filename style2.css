@@ -31,6 +31,15 @@ nav {
      color:aliceblue;
  }
 
+main {
+    
+}
+
+form {
+    width: 940px;
+    max-width: 90%;
+}
+
 h1{
     font-weight: bold;
     font-size: 1.5em;
@@ -56,5 +65,25 @@ h1{
     font-size: 1.2em;
  }
 
+#imagens-preco {
+    display: flex;
+    flex-direction: column ;
+    align-items: center
+}
 
+#imagens-preco p {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ .ex {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+}
+
+.imagens-preco p {
+    display: none;
+}
  
