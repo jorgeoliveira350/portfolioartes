@@ -4,6 +4,8 @@ header {
 }
 .imgicone {
     display: block;
+    width: 100px;
+    padding: 10px 0;
 }
 .caixa{
     width: 90%;
@@ -13,8 +15,8 @@ header {
 }
 nav {
     position:absolute;
-    top: 90px;
-    right: 0;
+    top: calc(50% - 8px);
+    right: 10px;
 }
  nav li{
      display: inline;
@@ -24,16 +26,15 @@ nav {
      text-transform: uppercase;
      color: #000000;
      font-weight: bold;
-     font-size: 20px;
+     font-size: 15px;
      text-decoration: none;
  }
  nav a:hover{
      color:aliceblue;
  }
- main {
+ .main1 {
     background: #a0a0a0;
-    border-bottom: 2px solid;
-    height: calc(100vh - 250px);
+    height: calc(100vh - 211px);
 }
  h2 {
      font-weight: bold;
@@ -42,24 +43,180 @@ nav {
      margin: 0 0 0 25px;
  }
 
- main p {
+ .main1 p {
      margin: 0 20px;
      padding: 35px 0;
      font-size: 20px;
  }
+
+/* FOOTER */
+
  footer {
-     background: url(bg.jpg);
+    background: #4e4e4e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid black;
  }
- footer p{
+ footer p {
      text-align: center;
-     padding: 0 15px 0 0;
-     color: #FFFFFF
+     color: #FFFFFF;
+     padding: 10px 0;
  }
 
- @media (max-width: 1100px){
-     nav {
-        position:absolute;
-        top: 110px;
-        right: 0;
-     }
+ .sociais {
+     display: flex;
+     margin: 10px 0;
+
  }
+
+ .sociais a i:hover {
+    color:rgb(131, 131, 131);
+ }
+
+ .sociais a {
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 0 10px;
+    color: black;
+ }
+
+ .sociais a i {
+    font-size: 23px;
+    text-decoration: none;
+ }
+
+ /* ARTES */
+
+ .main2{
+    background: #a0a0a0a0;
+ }
+
+ h3 {
+     padding: 25px 0;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.caixa-fotos {
+    position: relative;
+
+}
+
+.imagens-lista{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main li {
+    display: inline-block;
+    margin-bottom: 55px;
+}
+
+
+
+/* PREÇOS */
+
+
+.tabela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 940px;
+    max-width: 90%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 16px;
+
+}
+
+ table {
+     margin: 25px;
+     width: 95vw;
+ }
+
+ thead {
+     font-weight: bold;
+     background:#4e4e4e;
+     color: white;
+ }
+
+ td, tr {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 1.2em;
+ }
+
+#imagens-preco {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5px;
+    padding: 0 0 20px 0;
+}
+
+#imagens-preco p {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#imagens-preco > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .ex {
+    height: 220px;
+    width: 220px;
+    border: 2px solid black;
+}
+
+.imagens-preco p {
+    display: none;
+}
+
+/* CONTATOS */
+
+.inputs {
+    padding: 18px;
+}
+
+form label {
+    padding: 10px 0;
+    display: block;
+}
+
+form input {
+    width: 60vw;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button {
+    margin: 1em 0 0 0;
+    width: 25vw;
+    display: block;
+    border-radius: 5px;
+}
+
+.text-area {
+    width: 40%;
+    height: 150px;
+    resize: none;
+}
+
+
+
