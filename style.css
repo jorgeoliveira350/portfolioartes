@@ -1,6 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/montserrat');
 header {
-    background: #4e4e4e;
     border-bottom: 2px solid;
+    margin-right: 0;
 }
 .imgicone {
     display: block;
@@ -16,7 +17,6 @@ header {
 nav {
     position:absolute;
     top: calc(50% - 8px);
-    right: 10px;
 }
  nav li{
      display: inline;
@@ -32,10 +32,7 @@ nav {
  nav a:hover{
      color:aliceblue;
  }
- .main1 {
-    background: #a0a0a0;
-    height: calc(100vh - 211px);
-}
+
  h2 {
      font-weight: bold;
      font-size: 25px;
@@ -49,6 +46,8 @@ nav {
      font-size: 20px;
  }
 
+
+
 /* FOOTER */
 
  footer {
@@ -57,6 +56,7 @@ nav {
     flex-direction: column;
     align-items: center;
     border-top: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
  }
  footer p {
      text-align: center;
@@ -70,6 +70,10 @@ nav {
 
  }
 
+ .sociais a:hover {
+    color: black;
+ }
+
  .sociais a i:hover {
     color:rgb(131, 131, 131);
  }
@@ -77,21 +81,30 @@ nav {
  .sociais a {
     background: #FFFFFF;
     border-radius: 50%;
-    padding: 15px;
     margin: 0 10px;
     color: black;
+    position: relative;
+    height: 50px;
+    width: 50px;
  }
 
  .sociais a i {
     font-size: 23px;
     text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    margin-left: -12px;
+    text-align: center;
  }
 
  /* ARTES */
 
- .main2{
-    background: #a0a0a0a0;
- }
+
 
  h3 {
      padding: 25px 0;
@@ -110,6 +123,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0;
     
 }
 
@@ -199,10 +213,12 @@ form label {
     display: block;
 }
 
-form input {
-    width: 60vw;
-    padding: 10px;
-    border-radius: 10px;
+.form-check label {
+    padding: 0;
+}
+
+.form-check * {
+    cursor: pointer;
 }
 
 .button {
@@ -216,6 +232,11 @@ form input {
     width: 40%;
     height: 150px;
     resize: none;
+}
+
+#btsubmit {
+    margin: 0 auto;
+    display: block;
 }
 
 
